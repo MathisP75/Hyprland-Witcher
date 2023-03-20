@@ -14,6 +14,8 @@
 * PDF viewer: Zathura
 * Firefox start page: nightTab
 
+Original wallpaper: https://www.artstation.com/artwork/W2XQYN
+
 ![alt text](./screenshots/screenshot1.png)
 ***
 ![alt text](./screenshots/screenshot2.png)
@@ -24,4 +26,4 @@
 ***
 ![alt text](./screenshots/screenshot5.png)
 
-Original wallpaper: https://www.artstation.com/artwork/W2XQYN
+
