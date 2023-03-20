@@ -1,5 +1,5 @@
 # Hyprland-Witcher
-Catppuccin Witcher theme for Hyprland
+**Catppuccin Witcher theme for Hyprland**
 
 * Compositor: Hyprland
 * Terminal: Kitty
@@ -7,11 +7,12 @@ Catppuccin Witcher theme for Hyprland
 * Color scheme (and all themes): Cattpuccin with lavender accent color
 * GUI file manager: Thunar
 * TUI file manager: Ranger
-* Bar: Waybar
+* Bar: Waybar (with hyprland-autoname-workspaces)
 * App launcher: Wofi
-* Text editor: nvim
+* Text editor: nvim (nvchad)
 * Cursor theme: Bibata modern classic
 * PDF viewer: Zathura
+* Firefox start page: nightTab
 
 ![alt text](./screenshots/screenshot1.png)
 ***
@@ -23,3 +24,4 @@ Catppuccin Witcher theme for Hyprland
 ***
 ![alt text](./screenshots/screenshot5.png)
 
+Original wallpaper: https://www.artstation.com/artwork/W2XQYN
