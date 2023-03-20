@@ -23,7 +23,4 @@ Original wallpaper: https://www.artstation.com/artwork/W2XQYN
 ![alt text](./screenshots/screenshot3.png)
 ***
 ![alt text](./screenshots/screenshot4.png)
-***
-![alt text](./screenshots/screenshot5.png)
-
 
