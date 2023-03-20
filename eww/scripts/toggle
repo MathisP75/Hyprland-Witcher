@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "false"
+
+sleep 3 && echo "true"

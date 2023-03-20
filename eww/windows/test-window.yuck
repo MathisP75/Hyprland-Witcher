@@ -1,0 +1,33 @@
+(defpoll TOGGLE :interval "1s" `scripts/toggle`)
+
+(defwidget widget1 []
+    (box :class "overview-window" :orientation "v"
+    (checkbox :class "overview-ws-window" :onchecked "scipts/toggle"
+        (label :text "amogus")
+    )
+        (revealer :transition "slideright" :reveal "${TOGGLE}" :duration "3s"
+            (box
+                (button :class "overview-ws-window" :haling "left" :vexpand "false" :hexpand "false"
+                    (label :text "amogus")
+                )
+                (button :class "overview-ws-window" :haling "left" :vexpand "false" :hexpand "false"
+                    (label :text "mogus")
+                )
+            )
+        )
+    )
+)
+
+
+
+
+(defwindow test-window
+    :wm-ignore true
+    :monitor 0
+    :geometry (geometry
+      :anchor "center"
+      :width "50%"
+      :height "25%"
+    )
+    (widget1)
+)

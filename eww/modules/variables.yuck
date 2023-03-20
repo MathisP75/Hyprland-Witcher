@@ -1,0 +1,17 @@
+
+; Const
+(defvar RES_WIDTH 1920)
+(defvar RES_HEIGHT 1080)
+(defvar OVERVIEW_SCALE 0.18)
+(defvar OVERVIEW_SCALE_TEXT 0.45)
+(defvar OVERVIEW_SCALE_SUBTEXT 0.35)
+
+; Vars
+(defvar selected '')
+(deflisten wsjsona `scripts/overview1`)
+(deflisten wsjsonb `scripts/overview2`)
+(defvar overview_results "")
+(defvar overview_query "")
+(defvar open_overview false)
+(defvar overview_hover_name "Activities Overview")
+(deflisten activews :initial 1 `scripts/activews`)
