@@ -11,6 +11,7 @@
 * App launcher: Wofi
 * Text editor: nvim (nvchad)
 * Cursor theme: Bibata modern classic
+* Notification Daemon: swaync
 * PDF viewer: Zathura
 * Firefox start page: nightTab
 
@@ -24,3 +25,5 @@ Original wallpaper: https://www.artstation.com/artwork/W2XQYN
 ***
 ![alt text](./screenshots/screenshot4.png)
 
+***
+![alt text](./screenshots/screenshot5.png)

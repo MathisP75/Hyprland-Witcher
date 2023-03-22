@@ -33,6 +33,24 @@ tooltip label {
   color: @text;
 }
 
+#custom-launcher,
+#clock,
+#battery,
+#cpu,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#memory,
+#custom-dunst,
+#custom-powermenu,
+#workspaces {
+  margin: 10px 10px 10px 10px;
+	border-radius: 15px;
+  color: @lavender;
+  background-color: @crust;
+}
+
 #workspaces {
   border-radius: 15px;
   transition: none;
@@ -40,6 +58,7 @@ tooltip label {
 }
 
 #workspaces button{
+  padding: 15px 15px 15px 15px;
   color: @text;
   background: @base;
   border-radius: 15px;
@@ -51,25 +70,9 @@ tooltip label {
 }
 
 #workspaces button.active {
-  color: @lavender;
-  background: @crust;
-}
-
-#custom-launcher,
-#clock,
-#battery,
-#cpu,
-#temperature,
-#backlight,
-#network,
-#pulseaudio,
-#memory,
-#custom-dunst,
-#custom-powermenu {
-  margin: 10px 10px 10px 10px;
 	border-radius: 15px;
-  color: @lavender;
-  background-color: @crust;
+  color: @crust;
+  background: @teal;
 }
 
 /* ========= APP LAUNCHER ========= */
@@ -82,22 +85,22 @@ tooltip label {
 
 /* ========= CLOCK ========= */
 
-#clock.icon {
-  font-size: 17px;
-  background-color: @crust;
-	border-radius: 15px 0px 0px 15px;
-}
-
 #clock.hours {
+  font-size: 17px;
+  padding: 15px 15px 0px 15px;
+  margin: 0px 10px 0px 10px;
   color: @text;
   background-color: @base;
-	border-radius: 0px 15px 15px 0px;
+	border-radius: 15px 15px 0px 0px;
 }
 
 #clock.minutes {
+  font-size: 17px;
+  padding: 15px 15px 15px 15px;
+  margin: 0px 10px 0px 10px;
   color: @text;
   background-color: @base;
-	border-radius: 0px 15px 15px 0px;
+	border-radius: 0px 0px 15px 15px;
 }
 
 /* ========= NOTIFICATIONS ========= */
@@ -110,42 +113,61 @@ tooltip label {
 /* ========= VOLUME ========= */
 
 #pulseaudio.icon {
-  font-size: 18px;
-  background-color: @crust;
-	border-radius: 15px 0px 0px 15px;
+  font-size: 20px;
+  padding: 8px 15px 5px 15px;
+  margin: 10px 10px 0px 10px;
+  color: @crust;
+  background-color: @sapphire;
+	border-radius: 15px 15px 0px 0px;
 }
 
 #pulseaudio.sound {
+  font-size: 14px;
   color: @text;
+  padding: 11px 10px 8px 10px;
+  margin: 0px 10px 10px 10px;
   background-color: @base;
-	border-radius: 0px 15px 15px 0px;
+	border-radius: 0px 0px 15px 15px;
 }
 
 /* ========= NETWORK ========= */
 
 #network.icon {
-  background-color: @crust;
-	border-radius: 15px 0px 0px 15px;
+  font-size: 19px;
+  padding: 8px 18px 5px 12px;
+  margin: 10px 10px 0px 10px;
+  color: @crust;
+  background-color: @yellow;
+	border-radius: 15px 15px 0px 0px;
 }
 
 #network.strenght {
+  font-size: 14px;
   color: @text;
+  padding: 11px 10px 8px 10px;
+  margin: 0px 10px 10px 10px;
   background-color: @base;
-	border-radius: 0px 15px 15px 0px;
+  border-radius: 0px 0px 15px 15px;
 }
 
 /* ========= BATTERY ========= */
 
 #battery.icon {
-  font-size: 13px;
-  background-color: @crust;
-	border-radius: 15px 0px 0px 15px;
+  font-size: 19px;
+  padding: 8px 15px 5px 15px;
+  margin: 10px 10px 0px 10px;
+  color: @crust;
+  background-color: @red;
+	border-radius: 15px 15px 0px 0px;
 }
 
 #battery.value {
+  font-size: 14px;
   color: @text;
+  padding: 11px 10px 8px 10px;
+  margin: 0px 10px 10px 10px;
   background-color: @base;
-	border-radius: 0px 15px 15px 0px;
+  border-radius: 0px 0px 15px 15px;
 }
 
 #custom-powermenu {

@@ -1,5 +1,5 @@
 {
-  "width": 20, 
+  "width": 70, 
   "layer": "top",
   "position": "left",
   "output": "eDP-1",
@@ -22,8 +22,8 @@
       "4": "",
       "5": "",
       "urgent": "",
-      "active": "",
-      "default": ""
+      "active": "",
+      "default": ""
     },
     "sort-by-number": true
   },
@@ -80,8 +80,8 @@
   "pulseaudio#icon": {
       "format": "{icon}",
       "format-bluetooth": "{icon} ",
-      "format-bluetooth-muted": "婢 ",
-      "format-muted": "婢",
+      "format-bluetooth-muted": "󰸈 ",
+      "format-muted": "󰸈",
       "format-icons": {
           "headphone": "",
           "hands-free": "",
@@ -89,32 +89,33 @@
           "phone": "",
           "portable": "",
           "car": "",
-          "default": ["", "", ""]
+          "default": ["󰕿", "󰖀", "󰕾"]
       },
       "on-click-right": "pavucontrol",
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
   },
 
   "pulseaudio#sound": {
-    "format": "{volume}%",
-    "format-bluetooth": "{volume}%",
-    "format-bluetooth-muted": "{volume}%",
-    "format-muted": "muted",
+    "format": "{volume}",
+    "format-bluetooth": "{volume}",
+    "format-bluetooth-muted": "{volume}",
+    "format-muted": "-",
     "on-click-right": "pavucontrol",
   "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
 },
 
 "network#icon": {
-      "format-wifi": "直",
+      "format-wifi": "{icon}",
       "format-ethernet": " wired",
-      "format-disconnected": "睊",
-      "on-click": "sh ~/.config/wofi/scripts/wifimenu.sh"
+      "format-disconnected": "󰤭",
+      "on-click": "sh ~/.config/wofi/scripts/wifimenu.sh",
+      "format-icons": ["󰤟", "󰤢", "󰤥", "󰤨"]
 },
 
 "network#strenght": {
-    "format-wifi": "{signalStrength}%",
-    "format-ethernet": "{signalStrength}%",
-    "format-disconnected": "disconnected",
+    "format-wifi": "{signalStrength}",
+    "format-ethernet": "{signalStrength}",
+    "format-disconnected": "-",
     "on-click": "sh ~/.config/wofi/scripts/wifimenu.sh",
     "tooltip-format": "{essid}"
 },
@@ -134,7 +135,7 @@
     "format-charging": "",
     "format-plugged": "",
     "format-alt": "{icon}",
-    "format-full": "",
+    "format-full": "",
     "format-icons": ["", "", "", "", "", "", "", "", "", ""]
 },
 
@@ -147,13 +148,13 @@
         "critical": 15
     },
     "max-length": 10,
-    "format": "{capacity}%",
-    "format-warning": "{capacity}%",
-    "format-critical": "{capacity}%",
-    "format-charging": "{capacity}%",
-    "format-plugged": "{capacity}%",
+    "format": "{capacity}",
+    "format-warning": "{capacity}",
+    "format-critical": "{capacity}",
+    "format-charging": "{capacity}",
+    "format-plugged": "{capacity}",
     "format-alt": "{time}",
-    "format-full": "100%"
+    "format-full": "100"
 },
 
 "clock#icon": {
